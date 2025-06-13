@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+header {
+  background: #111;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.team-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      width: 240px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .team-card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+     .team-card h4 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+    }
+
+    .team-card p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+.card-container{
+      transform:scaleY(-100px);
+      display: flex;
+      margin-left: 500px;
+      margin-top: 100px ;
+}
+.back {
+    background-image: url('programmer.jpg'); /* Rasmni yuklash */
+    background-size: cover; /* Rasmni butun divni qoplash */
+    background-position: center; /* Markazga joylash */
+    background-repeat: no-repeat; /* Rasmni takrorlanishiga yo'l qo'ymaslik */
+    width: 100%; /* Divning to'liq kengligi */
+    height: 100vh; /* Ekran balandligi bo'yicha to'liq qoplash */
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+
+     <header>
+    <div >
+        <ul style="display: flex;">
+            <ol><img src="bizning comp.jpg" width="70px" height="70px" style="border-radius: 20px;"></ol>
+            <ol style="margin-left: 997px; margin-right: 50px;"><a href="twocoredevs.html">Bosh sahifa</a></ol>
+            <ol style="margin-right: 50px;"><a href="about.html">Biz Xaqimizda</a></ol>
+            
+            <ol style="margin-right: 50px;"><a href="servis.html">Servislarimiz</a></ol>
+            <ol style="margin-right: 50px;"><a href=""></a></ol>
+        </ul>
+    </div>
+    <div class="container">
+      <h1>Biz haqimizda</h1>
+      <p class="tagline">TwoCore Devs — kichik jamoa, katta maqsadlar bilan!</p>
+    </div>
+  </header>
+    <div style="display: flex; margin-top: 100px;">
+    <div style="margin-left: 180px;"><img src="a.jpg" width="300px" height="300px" style="border-radius: 20px;"></div>
+    <div style="margin-left: 100px;"></div>
+        <section class="about container">
+    <h2 style="margin-top: 80px;">Biz haqimizda</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif;">
+     Biz — Shaxzod va Muhammad, TwoCore Devs kompaniyasining asoschilari va tajribali dasturchilarmiz.<br> Ushbu kompaniyani yaratishdan maqsadimiz — texnologiyalar orqali odamlarning hayotini yengillashtiradigan,<br> foydali va zamonaviy yechimlar ishlab chiqishdir.
+     
+     Biz veb-saytlar, mobil ilovalar, va boshqa IT loyihalar ustida ishlaymiz.<br> Har bir mijozimiz uchun sifat, ishonchlilik va kreativlikni birinchi o‘ringa qo‘yamiz. Innovatsion fikrlash va doimiy rivojlanish<br> bizning asosiy tamoyillarimiz.
+     
+     TwoCore Devs — kichik jamoa, katta maqsadlar bilan!</p>
+  </section></div>
+</div>
+  
+
+<h1 style="text-align: center; margin-top: 80px;">Jamoa</h1>
+<div class="card-container">
+    <div class="team-card wow animate__animated animate__fadeInUp" data-wow-delay="0.2s" style="margin-right: 50px;">
+      <img src="man.jpg" alt="Team Member 1">
+      <h4>Islomov Shaxzod</h4>
+      <p>Frontend</p>
+    </div>
+
+    <div class="team-card wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+      <img src="muhammad.jpg" alt="Team Member 2">
+      <h4>Rustamov Muhammad</h4>
+      <p>Frontend</p>
+    </div>
+  </div>
+
+   
+
+</body>
+</html>

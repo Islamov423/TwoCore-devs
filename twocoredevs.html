@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+  <title>TwoCore Devs | Dasturchilar hamjamiyati</title>
+  <meta name="description" content="TwoCore Devs — Dasturchilar uchun resurslar, loyihalar va hamjamiyat." />
+  <meta name="keywords" content="TwoCore Devs, dasturlash, frontend, IT, developers, o'zbek dasturchilar" />
+  <meta name="author" content="Muhammad-Shaxzod" />
+  </head>
+  <title>TwoCore Devs</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+  <style>
+.card-container{
+      transform:scaleY(-10px);
+      display: flex;
+      margin-left: 80px;
+}
+
+    .card-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .team-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      width: 240px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .team-card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .team-card h4 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+    }
+
+    .team-card p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+    @media (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  header ul ol {
+    margin: 10px 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .team-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .services.container ul,
+  .about.container p,
+  .contact.container p {
+    padding: 0 10px;
+  }
+
+  .services.container h2,
+  .about.container h2,
+  .contact.container h2 {
+    font-size: 24px;
+  }
+
+  .team-card img {
+    height: auto;
+  }
+}
+
+  
+
+    
+  </style>
+  
+</head>
+<body>
+  <header>
+    <div>
+        <ul style="display: flex; background-color: #111;">
+            <ol><img src="bizning comp.jpg" width="70px" height="70px" style="border-radius: 20px;"></ol>
+            <ol style="margin-left: 997px; margin-right: 50px;"><a href="twocoredevs.html">Bosh sahifa</a></ol>
+            <ol style=" margin-right: 50px;"><a href="about.html">Biz Xaqimizda</a></ol>
+            <ol style="margin-right: 50px;"><a href="servis.html">Servislarimiz</a></ol>
+            <ol style="margin-right: 50px;"><a href=""></a></ol>
+        </ul>
+    </div>
+    <div class="container">
+      <h1>TwoCore Devs</h1>
+      <p class="tagline">TwoCore Devs — kichik jamoa, katta maqsadlar bilan!</p>
+    </div>
+  </header>
+  
+
+
+<section class="services container">
+    <h2>Bizning Services</h2>
+    <ul>
+      <li>Figma-ni HTML/CSS-ga aylantirish</li>
+      <li>Responsive veb-sayt ishlab chiqish</li>
+      <li>Tailwind CSS & Bootstrap Layouts</li>
+      <li>Ochilish sahifalari va asboblar paneli</li>
+      <li>Ta'lim va elektron tijorat frontendlari</li>
+    </ul>
+  </section>
+
+
+  <section class="about container">
+    <h2>Biz haqimizda</h2>
+    <p>
+Biz — Shaxzod va Muhammad, TwoCore Devs kompaniyasining asoschilari va tajribali dasturchilarmiz. Ushbu kompaniyani yaratishdan maqsadimiz — texnologiyalar orqali odamlarning hayotini yengillashtiradigan, foydali va zamonaviy yechimlar ishlab chiqishdir.<br>
+
+Biz veb-saytlar, mobil ilovalar, va boshqa IT loyihalar ustida ishlaymiz. Har bir mijozimiz uchun sifat, ishonchlilik va kreativlikni birinchi o‘ringa qo‘yamiz. Innovatsion fikrlash va doimiy rivojlanish — bizning asosiy tamoyillarimiz.<br>
+
+TwoCore Devs — kichik jamoa, katta maqsadlar bilan!</p>
+  </section>
+
+  
+   
+  
+
+  <section class="contact container">
+    <h2>Bog'lanish uchun</h2>
+    <p>Email: <a href="mailto:twocoredevs@gmail.com">twocoredevs@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/TwoCoreDevs" target="_blank">github.com/TwoCoreDevs</a></p>
+    <p>Telegram: <a href="https://t.me/TwoCore_Devs" target="_blank">@twocoredevs</a></p>
+    <p>Telefon raqamlar:+998(93)581-14-46, +998(50)054-79-29 </p>
+  </section>
+
+  
+
+  <div class="card-container">
+    <div class="team-card wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+      <img src="man.jpg" alt="Team Member 1">
+      <h4>Islomov Shaxzod</h4>
+      <p>Frontend</p>
+    </div>
+
+    <div class="team-card wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+      <img src="muhammad.jpg" alt="Team Member 2">
+      <h4>Rustamov Muhammad</h4>
+      <p>Frontend</p>
+    </div>
+  </div>
+
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <footer>
+    <p>&copy; 2025 TwoCore Devs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
